@@ -18,7 +18,7 @@ AutoFR is a verbal free recall experiment that incorporates automatic speech-to-
 + Type `psiturk`.  This should spin up a psiturk server
 + Then, type: `server on` (you may get an error the first time you try this, but try it again).
 + Then type `debug` <-this will initialize a local version of the experiment.
-+ Point your Google Chrome browser to `localhost:22362` and follow the on-screen instructions to run in the experiment!
++ Point your Google Chrome browser to `localhost:22362` and follow the on-screen instructions to run in the experiment! (you may also have to add the url to Chrome's list of "Insecure origins treated as secure." Chrome as a default denies recording permission on a site that begins with http, like the localhost link. If you cannot permit microphone access go to chrome://flags/#unsafely-treat-insecure-origin-as-secure, enable the section, add `http://0.0.0.0:22362` and restart Chrome.
 
 **IMPORTANT NOTE:** Make sure you have pop-up blockers turned OFF!!
 
